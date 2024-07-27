@@ -1,0 +1,23 @@
+.comp-section {
+  background-color: #B71515;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .comp {
+    .up {
+      display: flex;
+      justify-content: space-evenly;
+      img {
+        width: 60px;
+      }
+    }
+
+    .down {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 40px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+}

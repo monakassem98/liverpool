@@ -1,0 +1,78 @@
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #911712;
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    .left {
+      display: flex;
+      text-transform: uppercase;
+
+      .first a {
+        color: white;
+        display: block;
+        margin-top: 10px;
+      }
+
+      .sec a {
+        display: block;
+        margin-left: 50px;
+        color: white;
+        margin-top: 10px;
+      }
+    }
+
+    .right {
+      .links {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        .icon {
+          background-color: white;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          margin-right: 30px;
+
+          &.last {
+            margin-right: 0;
+          }
+
+          i {
+            color: #911712;
+          }
+        }
+      }
+
+      .download {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        p {
+          margin-right: 20px;
+          color: white;
+          text-transform: uppercase;
+        }
+        img {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .copy {
+    border-top: 1px solid rgb(177, 177, 177);
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+}

@@ -1,0 +1,70 @@
+.lfc-women-section {
+  background-color: var(--main-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .lfc-women {
+    .title {
+      display: flex;
+      justify-content: space-between;
+      color: var(--white);
+      text-transform: uppercase;
+
+      .first {
+        background-color: var(--dark-red);
+        width: fit-content;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .sec {
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .card-container {
+      margin: auto;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      /* flex-wrap: wrap; */
+      gap: 30px;
+      .card {
+        width: 30%;
+        color: var(--white);
+        padding: 20px 10px;
+        text-align: left;
+        border-bottom: 1px solid var(--gray);
+        cursor: pointer;
+        &:hover {
+          background-color: var(--dark-red);
+        }
+        .img {
+          width: 350px;
+          margin: auto;
+          img {
+            width: 100%;
+          }
+        }
+
+        .txt {
+          margin-top: 70px;
+          padding-left: 10px;
+
+          span {
+            font-size: 12px;
+            margin-bottom: 20px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

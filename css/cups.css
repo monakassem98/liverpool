@@ -1,0 +1,96 @@
+.cups-section {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  .cups {
+    display: flex;
+    justify-content: space-between;
+    div {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.nineteen {
+  position: relative;
+}
+.nineteen::after {
+  content: "19";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+.six {
+  position: relative;
+}
+.six::after {
+  content: "6";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+
+.eight {
+  position: relative;
+}
+.eight::after {
+  content: "8";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+
+.three {
+  position: relative;
+}
+.three::after {
+  content: "3";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+
+.ten {
+  position: relative;
+}
+.ten::after {
+  content: "10";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+
+.four {
+  position: relative;
+}
+.four::after {
+  content: "4";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}
+
+.one {
+  position: relative;
+}
+.one::after {
+  content: "1";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: gray;
+  font-weight: 900;
+}

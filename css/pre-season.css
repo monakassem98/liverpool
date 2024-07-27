@@ -1,0 +1,186 @@
+.pre-season-section {
+  background-color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pre-season .btns {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pre-season .btns .left {
+  background-color: black;
+  color: var(--white);
+  border-radius: 25px;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pre-season .btns .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.pre-season .btns .right .yell {
+  border-radius: 25px;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+
+.pre-season .btns .right .move {
+  cursor: pointer;
+  font-size: 14px;
+  span {
+    margin-left: 5px;
+  }
+  &:hover {
+    color: gray;
+  }
+
+  &:hover span {
+    margin-left: 10px;
+  }
+}
+
+.pre-season .cards-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  .right-angle{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(-80%, -50%);
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    cursor: pointer;
+
+    span{
+      color: white;
+      font-size: 20px;
+    }
+  }
+
+  .left-angle{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    cursor: pointer;
+    display: none;
+
+    span{
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .card {
+    height: 500px;
+    min-width: 380px;
+    border: 1px solid var(--gray);
+    margin-right: 30px;
+    position: relative;
+    &:before {
+      content: "";
+      width: 90%;
+      height: 1px;
+      background-color: var(--gray);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+      width: 30px;
+    }
+
+    .up {
+      height: 49%;
+      position: relative;
+      padding-left: 20px;
+
+      h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .time {
+        text-transform: uppercase;
+      }
+
+      .liver {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 20px;
+
+        h1 {
+          font-weight: 400;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .down {
+      padding-left: 20px;
+
+      height: 49%;
+      .other {
+        display: flex;
+        align-items: center;
+        h1 {
+          font-weight: 400;
+          font-size: 20px;
+          margin-left: 10px;
+        }
+      }
+      .btn{
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 20px 20px 40px 20px;
+        position: absolute;
+        bottom: 20px;
+        width: 80%;
+        cursor: pointer;
+
+        &:hover{
+          opacity: .7;
+        }
+
+        &:hover span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

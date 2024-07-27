@@ -1,0 +1,100 @@
+.men-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .first {
+      background-color: black;
+      color: var(--white);
+      border-radius: 25px;
+      width: fit-content;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .sec {
+      color: gray;
+      cursor: pointer;
+      font-size: 16px;
+
+      &:hover {
+        color: rgb(201, 199, 199);
+      }
+    }
+  }
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    .card {
+      width: 350px;
+      background-color: white;
+      padding: 20px;
+      border: 1px solid gray;
+      .player {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .left {
+          .no {
+            width: 80px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+        .right {
+          img {
+            width: 100px;
+          }
+        }
+      }
+
+      .seas {
+        color: rgb(173, 173, 173);
+        font-size: 14px;
+        margin-top: 50px;
+      }
+
+      .table {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        margin-top: 20px;
+      }
+
+      .btns {
+        display: flex;
+        justify-content: flex-end;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        h3 {
+          margin-left: 20px;
+          color: gray;
+          font-size: 14px;
+
+          &:hover {
+            color: rgb(190, 190, 190);
+          }
+
+          &:hover span {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

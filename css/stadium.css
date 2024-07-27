@@ -1,0 +1,62 @@
+.stadium-section {
+  padding-top: 150px;
+  .stadium {
+    width: 70%;
+    position: relative;
+    .btn {
+      background-color: black;
+      color: white;
+      text-transform: uppercase;
+      width: fit-content;
+      padding: 10px 20px;
+      border-radius: 25px;
+    }
+
+    h1 {
+      font-weight: 400;
+      span {
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+
+    .date {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: gray;
+    }
+
+    .img {
+      margin-top: 50px;
+    }
+
+    .cards-cont {
+      text-align: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: fit-content;
+      position: absolute;
+      bottom: 0px;
+      right: -50px;
+      background-color: white;
+      .card {
+        border-bottom: 1px solid gray;
+        .img {
+          width: 250px;
+          img {
+            width: 100%;
+          }
+        }
+
+        h2 {
+          font-size: 18px;
+          font-weight: 400;
+
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

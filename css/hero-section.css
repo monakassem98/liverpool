@@ -1,0 +1,100 @@
+.hero-section {
+  background-color: var(--main-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-section .title {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+.hero-section .title .first {
+  background-color: var(--dark-red);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.hero-section .title .sec {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+
+  span {
+    margin-left: 10px;
+  }
+}
+
+.hero-section .card-cont {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.hero-section .card,
+.hero-section .diff {
+  width: 30%;
+  color: var(--white);
+  padding: 20px 10px;
+}
+.hero-section .card {
+  text-align: left;
+  border-bottom: 1px solid var(--gray);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--dark-red);
+  }
+}
+.hero-section .card .txt {
+  margin-top: 70px;
+  padding-left: 10px;
+
+  span {
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+.hero-section .card .img {
+  width: 350px;
+  margin: auto;
+}
+
+.hero-section .card .img img {
+  width: 100%;
+}
+
+.hero-section .diff {
+  background-color: var(--green);
+  /* padding: 20px; */
+  width: 30%;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+.hero-section .diff p {
+  font-size: 25px;
+}
+.hero-section .diff .img {
+  text-align: right;
+}
+.hero-section .diff img {
+  width: 170px;
+}
+.hero-section .diff a {
+  color: var(--white);
+  background-color: black;
+  display: block;
+  padding: 20px;
+  margin-top: 10px;
+
+  &:hover span {
+    margin-left: 5px;
+    transition: 0.2s;
+  }
+}

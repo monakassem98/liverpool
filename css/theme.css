@@ -1,0 +1,24 @@
+:root {
+  --main-color: rgb(220, 7, 20);
+  --dark-red: rgb(183, 21, 21);
+  --yellow: #ffd700;
+  --green: #00634d;
+  --gray: #eeeded;
+  --dark-gray: #ececec;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--gray);
+
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}

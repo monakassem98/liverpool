@@ -1,0 +1,12 @@
+.logo-section {
+  background-color: var(--main-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .logos {
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      width: 150px;
+    }
+  }
+}

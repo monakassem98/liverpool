@@ -1,0 +1,101 @@
+.lfc-section {
+  background-color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.lfc-section .title {
+  background-color: black;
+  color: var(--white);
+  border-radius: 25px;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: smaller;
+}
+
+.lfc-section .links {
+  margin-top: 30px;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.lfc-section .links a {
+  margin-left: 20px;
+  padding-bottom: 16px;
+  color: var(--dark-gray);
+  &:hover {
+    color: rgba(0, 0, 0, 0.719);
+  }
+}
+.lfc-section .links .active {
+  margin-left: 0;
+  border-bottom: 1px solid var(--main-color);
+  color: black;
+}
+.lfc-section .retail .cards-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lfc-section .retail .card {
+  width: 18%;
+  border: 2px solid var(--dark-gray);
+  overflow: hidden;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.lfc-section .retail .img {
+  width: 130%;
+  margin-left: -35px;
+  border-top: 2px solid var(--dark-gray);
+  border-left: 2px solid var(--dark-gray);
+  border-right: 2px solid var(--dark-gray);
+}
+
+.lfc-section .retail .img img {
+  width: 100%;
+}
+
+.lfc-section .retail .cards-cont span {
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.lfc-section h1 {
+  margin-left: 10px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.lfc-section .cards-cont .card a {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px 10px 30px 10px;
+  width: calc(100% - 40px);
+  display: inline-block;
+  span {
+    color: white;
+  }
+}
+
+.lfc-section .retail .visit {
+  width: fit-content;
+  cursor: pointer;
+  background-color: var(--yellow);
+  padding: 10px 10px 30px 10px;
+  margin: auto;
+  margin-top: 30px;
+
+  a{
+    color: black;
+    font-size: 20px;
+
+  }
+  &:hover span{
+     margin-left: 10px;
+   }
+}

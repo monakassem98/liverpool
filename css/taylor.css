@@ -1,0 +1,65 @@
+.taylor-section {
+  background-color: #ffd700;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  .taylor {
+    margin: auto;
+    width: 65%;
+    cursor: pointer;
+    h2 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 50px;
+      font-weight: 600;
+      margin: 0;
+      .icon {
+        background-color: black;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          color: #ffd700;
+          font-size: 20px;
+        }
+      }
+      &:hover .icon{
+        margin-left: 10px;
+        transition: .3s;
+    }
+    }
+    .card {
+      margin-top: 30px;
+      padding: 0px 20px 20px 20px;
+      width: fit-content;
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        border-top: 1px solid gray;
+        width: 350px;
+        padding: 20px 10px;
+        margin: 0;
+        span {
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+      .img {
+        width: 370px;
+        img {
+          width: 100%;
+        }
+      }
+
+      &:hover{
+        background-color: rgba(167, 167, 167, 0.301);
+        transition: .3s;
+      }
+
+    }
+  }
+}
